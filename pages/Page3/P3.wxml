@@ -1,0 +1,6 @@
+<view class="ns"> "实践是检验真理的唯一标准"
+  <view class="nn">"马克思列宁主义并没有结束真理，而是在实践中不断地开辟认识真理的道路。"         ——毛泽东</view>
+	<view class="nn">纸上得来终觉浅，绝知此事要躬行。       ——陆游</view>
+  <button bindtap="questions" style="margin-top: 50rpx;">去答题</button>
+</view>
+

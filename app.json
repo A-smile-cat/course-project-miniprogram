@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/Page1/P1",
+    "pages/Page2/P2",
+    "pages/Page3/P3",
+    "pages/Page4/P4",
+    "pages/question/qa"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "",
+        "pagePath": "pages/Page1/P1",
+        "iconPath": "images/icons/a2.png",
+        "selectedIconPath": "images/icons/a1.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/Page2/P2",
+        "iconPath": "images/icons/b1.png",
+        "selectedIconPath": "images/icons/b2.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/Page3/P3",
+        "iconPath": "images/icons/c2.png",
+        "selectedIconPath": "images/icons/c1.png"
+      },
+      {
+        "text": "",
+        "pagePath": "pages/Page4/P4",
+        "iconPath": "images/icons/d1.png",
+        "selectedIconPath": "images/icons/d2.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "title",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+
+  }
+}

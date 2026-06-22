@@ -1,0 +1,29 @@
+<view class="time">
+  <view class="time-curin">{{time}}</view>
+</view>
+
+<view class="centent" wx:for="{{detail}}" wx:key="index" wx:if="{{index == number}}">
+  <view class="centent-title">{{index+1}}. {{item.title}}</view>
+  <radio-group class="centent-group">
+    <radio class="group-radio" bindtap="radioChange" wx:for="{{item.array}}" wx:for-item="cell" data-index="{{index}}" data-id="{{item.id}}" wx:key="index" checked="{{cell.usname}}">
+      <span class="radio-span" wx:if="{{index == 0}}">A.</span>
+      <span class="radio-span" wx:if="{{index == 1}}">B.</span>
+      <span class="radio-span" wx:if="{{index == 2}}">C.</span>
+      <span class="radio-span" wx:if="{{index == 3}}">D.</span>
+      <text>{{cell.name}}</text>
+    </radio>
+  </radio-group>
+</view>
+
+<view class="bottom" wx:if="{{number != detail.length && time != 0}}">
+<view bindtap="previous" wx:if="{{number != 0}}">上一题</view>
+<view bindtap="nextstep" style="{{number == 0?'margin:0 30%;':''}}">下一题</view>
+</view> 
+
+<view class="submission" wx:if="{{number == detail.length || time == 0}}">
+  <view>
+  
+  </view>
+  <view class="submission-center" bindtap="subsic">提交答案</view>
+</view>
+ 

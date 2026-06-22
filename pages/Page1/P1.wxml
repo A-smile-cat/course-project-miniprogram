@@ -1,0 +1,56 @@
+<swiper indicator-dots indicator-color="red" indicator-active-color="yellow" autoplay="true" interval="2500" circular="true" easing-function="linear">
+	  <swiper-item>
+		     <image src="./pic/01.jpg"  style="width:750rpx;height:340rpx"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="./pic/02.jpg"  style="width:750rpx;height:360rpx"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="./pic/03.jpg"  style="width:750rpx;height:340rpx"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="./pic/04.jpg"  style="width:750rpx;height:360rpx"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="./pic/05.jpg"  style="width:750rpx;height:360rpx"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="./pic/06.jpg"  style="width:750rpx;height:360rpx"></image>
+		</swiper-item>
+	</swiper>
+<view class="ns"> 
+  <text>重温伟人之语，深切缅怀追忆</text>
+	<swiper class="nn" indicator-dots indicator-color="white" indicator-active-color="black" circular="true">
+	  <swiper-item>
+		  <image class="nm"  mode="widthFix" src="./pic/re1.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+		  <image class="nm"  mode="widthFix" src="./pic/re2.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+		  <image class="nm"  mode="widthFix" src="./pic/re3.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+		  <image class="nmm"  mode="widthFix" src="./pic/d1.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+		  <image class="nmm"  mode="widthFix" src="./pic/d2.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+		  <image class="nmm"  mode="widthFix" src="./pic/d3.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+		  <image class="nmm"  mode="widthFix" src="./pic/d4.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+		  <image class="nmm"  mode="widthFix" src="./pic/d6.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+		  <image class="nmm"  mode="widthFix" src="./pic/d7.jpg"></image>
+		</swiper-item>
+	</swiper>
+	<view class="na">党的十八大报告指出，中国特色社会主义理论体系是包括邓小平理论、“三个代表”重要思想、科学发展观在内的科学理论体系，是对马克思列宁主义、毛泽东思想的坚持和发展。这个论断，清楚地阐述了毛泽东思想和中国特色社会主义理论体系的关系：后者继承前者，是一脉相承的关系；前者是指导后者在新的时代条件下不断创新发展而形成最新成果的基础。</view>
+	<view class="na">中国特色社会主义理论体系同毛泽东思想的关系，具体说有三种情况：一是坚持、继承、完善。二是纠错基础上创新。三是在新的实践中创新发展。</view>
+	<view class="na">邓小平理论是对中国特色社会主义理论体系的奠基。邓小平理论是中国特色社会主义理论体系的奠基之石，其重要思想观点成为中国特色社会主义理论体系的基本思想观点，其重要内容成为中国特色社会主义理论体系的基本内容，其中关于“什么是社会主义、怎样建设社会主义”的思想成为贯穿中国特色社会主义理论体系的主题。</view>
+	<view class="na">邓小平理论之所以成为中国特色社会主义理论体系的奠基之作，在于它是对我们党开创的中国特色社会主义道路所进行的系统解释和说明。邓小平理论之所以成为中国特色社会主义理论体系的奠基之作，在于它创造性地回答了经济文化落后的中国实现现代化和民族复兴的问题。邓小平理论之所以成为中国特色社会主义理论体系的奠基之作，在于它立足于改革开放初期我国生产力水平极端落后的生存型阶段提出并解决问题。（作者：宋福范 来源：半月谈网-学习时报）</view>
+</view>
