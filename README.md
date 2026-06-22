@@ -133,3 +133,111 @@ This project is released under the [MIT License](LICENSE).
 ## Acknowledgements
 
 Built as a course project to practice and apply WeChat Mini Program development skills.
+
+---
+
+<h2 id="中文">关于本项目</h2>
+
+本项目是一个**静态微信小程序**，作为课程项目的一部分开发。它用于：
+
+- **学习实践** — 微信小程序开发的入门练习
+- **入门模板** — 展示基本的小程序结构与页面导航
+- **课程作业成果** —  demonstrating 课程知识的实际应用
+
+项目涵盖了小程序核心基础功能，包括多页面导航、TabBar 配置、图片轮播、富文本渲染、视频嵌入、互动测验和条件渲染。
+
+> **说明：** 本小程序最初为课程作业开发，其中展示的内容仅用于演示目的。
+
+## 截图
+
+<p align="center">
+  <strong>Tab 1</strong> — 轮播 &amp; 富文本 &nbsp;&nbsp;
+  <strong>Tab 2</strong> — 视频 &amp; 文章 &nbsp;&nbsp;
+  <strong>Tab 3</strong> — 名言 &amp; 测验入口 &nbsp;&nbsp;
+  <strong>Tab 4</strong> — 互动内容 &nbsp;&nbsp;
+</p>
+
+## 功能特性
+
+| 功能 | 说明 |
+|------|------|
+| **多页面导航** | 4 标签页 TabBar，各页面独立控制 |
+| **图片轮播** | `swiper` 组件，支持自动播放和循环滚动 |
+| **富文本展示** | 使用 `rich-text` 组件动态渲染文本与自定义样式 |
+| **视频嵌入** | 支持远程视频播放 |
+| **互动测验** | 限时选择题，支持自动提交与评分 |
+| **条件渲染** | 基于 `wx:if` 的内容渐进式展示 |
+| **自适应图片** | 根据屏幕宽度动态缩放图片 |
+
+## 项目结构
+
+```
+course-project-miniprogram/
+├── pages/
+│   ├── Page1/          # 首页 — 图片轮播 + 文字内容
+│   ├── Page2/          # 视频页 — 嵌入视频 + 文章
+│   ├── Page3/          # 名言页 — 导航至测验页
+│   ├── Page4/          # 互动内容 — 渐进式展示
+│   └── question/       # 测验页 — 限时选择题
+├── images/
+│   └── icons/          # TabBar 图标资源
+├── app.js              # 小程序入口文件
+├── app.json            # 小程序配置（页面、TabBar、窗口）
+├── app.wxss            # 全局样式
+└── project.config.json # 微信开发者工具项目配置
+```
+
+## 快速开始
+
+### 环境要求
+
+- [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)（最新稳定版）
+
+### 导入步骤
+
+1. 打开 **微信开发者工具**
+2. 点击 **+** → **导入小程序**
+3. 选择本项目所在目录
+4. 项目将自动编译并预览
+
+无需构建工具或包管理器 — 本小程序为原生微信小程序，无任何外部依赖。
+
+### 应用配置
+
+`app.json` 中的关键设置：
+
+- **页面**: 5 个页面（4 个 TabBar 页面 + 1 个测验页面）
+- **TabBar**: 自定义图标式底部导航栏（隐藏文字，仅显示图标）
+- **窗口**: 标准导航栏，启用下拉刷新
+
+## 技术栈
+
+| 技术 | 用途 |
+|------|------|
+| WXML | 页面结构与模板 |
+| WXSS | 样式（全局 + 页面级） |
+| JavaScript | 页面逻辑、事件处理、状态管理 |
+| 微信 API | 导航、系统信息、存储、弹窗 |
+
+## 你将学到
+
+通过本项目的实践，可以掌握：
+
+1. **小程序生命周期** — `App.onLaunch`、`Page.onLoad`、`Page.onShow`
+2. **TabBar 导航** — 配置带图标的底部导航
+3. **组件使用** — `swiper`、`image`、`video`、`rich-text`、`radio-group`
+4. **数据绑定** — 使用 `setData` 双向绑定
+5. **事件处理** — tap、change 和自定义事件
+6. **条件渲染** — `wx:if` / `wx:for` 指令
+7. **本地存储** — `wx.getStorageSync` / `wx.setStorageSync`
+8. **响应式图片** — 通过 `wx.getSystemInfo` 动态缩放
+
+## 许可证
+
+本项目基于 [MIT 许可证](LICENSE) 发布。
+
+> 本小程序内展示的内容（图片、文字、视频）仅用于教育与演示目的。所有第三方内容归其各自所有者所有。
+
+## 致谢
+
+作为课程项目构建，用于实践和应用微信小程序开发技能。
