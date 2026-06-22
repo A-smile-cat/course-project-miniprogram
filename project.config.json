@@ -39,7 +39,6 @@
     "useCompilerPlugins": false,
     "minifyWXML": true
   },
-  "appid": "wx3ca29b38a3173bce",
   "projectname": "quickstart-wx-cloud",
   "libVersion": "3.12.0",
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
@@ -63,5 +62,6 @@
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "appid": "wx3ca29b38a3173bce"
 }
